@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="window-controls">
+                <div class="control red"></div>
+                <div class="control yellow"></div>
+                <div class="control green"></div>
+            </div>
+            
+            <div class="categories">
+                <h3>Categories</h3>
+                <div class="nav-item active" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </div>
+                <div class="nav-item" data-section="skills">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </div>
+                <div class="nav-item" data-section="jobs">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Jobs</span>
+                </div>
+                <div class="nav-item" data-section="projects">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projects</span>
+                </div>
+                <div class="nav-item" data-section="education">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <h3>Social Link</h3>
+                <a href="#" class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone</span>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="profile-image">
+                <img src="images/profile.png" alt="Profile Picture">
+            </div>
+            
+            <!-- About Section -->
+            <section id="about" class="content-section active">
+                <div class="hero-card">
+                    <div class="hero-text">
+                        <h1>Your Name</h1>
+                        <p>Innovative Front-End Developer with expertise in building responsive, high-performance web applications using modern technologies. Passionate about merging user-centric design with cutting-edge technology to solve complex problems.</p>
+                        <button class="download-btn">Download Resume</button>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/developer.svg" alt="Developer Illustration">
+                    </div>
+                </div>
+                
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon html">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon css">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <span>CSS/SCSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon js">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon ts">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon angular">
+                            <i class="fab fa-angular"></i>
+                        </div>
+                        <span>Angular</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon react">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon vue">
+                            <i class="fab fa-vuejs"></i>
+                        </div>
+                        <span>Vue</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <span>Git</span>
+                    </div>
+                </div>
+                
+                <h2>My Jobs</h2>
+                <div class="jobs-container">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-logo">
+                                <img src="images/company1.png" alt="Company 1">
+                            </div>
+                            <div class="job-title">
+                                <h3>Company One</h3>
+                                <span class="job-date">Jan 2023 - Present</span>
+                            </div>
+                        </div>
+                        <div class="job-description">
+                            <p>Description of your role and responsibilities at this company.</p>
+                            <ul>
+                                <li>Key achievement or responsibility one</li>
+                                <li>Key achievement or responsibility two</li>
+                                <li>Key achievement or responsibility three</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-logo">
+                                <img src="images/company2.png" alt="Company 2">
+                            </div>
+                            <div class="job-title">
+                                <h3>Company Two</h3>
+                                <span class="job-date">Jan 2021 - Dec 2022 · 2 yrs</span>
+                            </div>
+                        </div>
+                        <div class="job-description">
+                            <p>Description of your role and responsibilities at this company.</p>
+                            <ul>
+                                <li>Key achievement or responsibility one</li>
+                                <li>Key achievement or responsibility two</li>
+                                <li>Key achievement or responsibility three</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>My Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Project One</h3>
+                        <p>Description of your first project, highlighting the technologies used and your role in its development.</p>
+                        <a href="#" class="project-link">Open</a>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Description of your second project, highlighting the technologies used and your role in its development.</p>
+                        <a href="#" class="project-link">Open</a>
+                    </div>
+                </div>
+                
+                <h2>My Education</h2>
+                <div class="education-container">
+                    <div class="education-card">
+                        <div class="education-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Bachelor of Computer Science</h3>
+                            <p>University Name</p>
+                            <span class="education-date">2018 - 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
